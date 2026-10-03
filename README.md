@@ -13,6 +13,7 @@ and turn the data into a .JSON
 and save it to the destination directory.
 
 `haxe run.hxml -D targ="<destination_directory>" -D str="<some_text>"`
+
 `haxe run.hxml -D targ="<destination_directory>" -D file="<input_filepath>"`
 
 ### Decode
