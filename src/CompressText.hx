@@ -98,7 +98,7 @@ class CompressText {
 	}
 
 	static function save(ext:String, data:String) {
-		var targ = new Path(targetPath.replace('\\', '/'));
+		var targ = new Path(Path.addTrailingSlash('targetPath'.replace('\\', '/')));
 
 		if (!FileSystem.exists(targ.dir))
 			FileSystem.createDirectory(targ.dir);
